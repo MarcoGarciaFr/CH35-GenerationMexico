@@ -1,0 +1,158 @@
+:root {
+    --fuente-primaria: 'Montserrat Alternates', sans-serif;
+    --fuente-secundaria: 'Montserrat', sans-serif;
+    --fuente-terciaria: 'Roboto', sans-serif;
+    --color-primario: #1D1D1D;
+    --color-secundario: #6B43FF;
+    --color-terciario: #6667B0;
+    --blanco: #fff;
+}
+
+/* Estilos Globales */
+body {
+    font-family: var(--fuente-secundaria);
+    font-weight: bold;
+}
+
+h1 {
+    font-family: var(--fuente-primaria);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primario);
+}
+
+/* Contenedor Principal */
+.sesion-principal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Sección Formulario e Imagen */
+.contenedor-formulario-sesion {
+    margin: 5em;
+    border: 1px;
+    padding: 50px 35px;
+    border-color: #D1D2FA;
+    box-shadow: 5px 5px 5px 5px #5E5E5E;
+}
+
+.contenedor-imagen-sesion {
+    background: linear-gradient(to right, var(--blanco), #B492FD, #AD4EF5);
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-imagen-sesion img {
+    align-self: center;
+}
+
+/* Botones Google y Apple */
+.logo-img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.crear-cuenta p {
+    color: var(--color-primario);
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--fuente-primaria);
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boton-sesion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 70px;
+    border: solid var(--color-primario) 1px;
+    border-radius: 12px;
+    margin: 25px;
+}
+
+.boton-sesion p {
+    font-family: var(--fuente-secundaria);
+}
+
+/* Línea de opción */
+.opcion {
+    text-align: center;
+}
+
+.opcion hr {
+    display: inline-block;
+    width: 40%;
+    border-top: 1px solid var(--color-terciario);
+    margin: 0 10px;
+}
+
+.opcion span {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: var(--blanco);
+}
+
+/* Formulario */
+.campo {
+    margin: 20px;
+}
+
+.contenedor-formulario {
+    background-color: var(--blanco);
+}
+
+label {
+    color: var(--color-primario);
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border: solid var(--color-primario) 1px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: var(--color-terciario);
+    font-size: 18px;
+}
+
+.enlace {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.enlace a {
+    font-weight: 900;
+    color: var(--color-secundario);
+}
+
+/* Botón de inicio de sesión */
+.contenedor-boton-login {
+    margin: 40px 20px 0 20px;
+}
+
+.boton-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#boton-login {
+    background-color: var(--color-secundario);
+    font-family: var(--fuente-terciaria);
+    font-size: 20px;
+    border-color: var(--color-secundario);
+    color: #F4F1FF;
+}

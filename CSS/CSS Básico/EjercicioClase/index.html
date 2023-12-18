@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Introducción a CSS3 </title>
+
+    <link rel = " stylesheet " href = "./style/style.css">
+
+</head>
+<body>
+
+<!--
+
+Tenemos tres formas distintas de agregar estilos a un documento html
+
+Inline (en linea)
+
+Para trabajar con los etilos in line utilizamos la palabra reservada style y con esto ya le damos la instrucción de que que queremos añadir.
+
+Tiene mayor jerarquía sobre la etiqueta style
+
+-->
+    
+    <h1>Inline</h1>
+
+    <p style = " background-color: aqua; color: blueviolet; font-size: xx-large; ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ex voluptates qui modi, tempora soluta obcaecati temporibus voluptate ut, vel doloremque voluptatem ab dolores, illo optio! Praesentium sint non dicta.</p>
+
+
+<!--
+
+Utilizando la etiqueta <style> 
+
+Cuando usamos los estilos dentro de la etiqueta style, "separamos" los estilos de etiqueta, para mantener un código limpio y claro
+
+-->
+
+<style>
+    body {
+        background-color: brown;
+    }
+</style>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem ut praesentium eligendi quae mollitia magnam cupiditate? Dolorem accusamus itaque voluptate nesciunt commodi distinctio. Quae error ex nobis ea dolor!</p>
+
+
+<!--
+
+Referencia a un documento de estilos externo (buena práctica)
+
+    código mas limpio
+    código mas entendible
+    velocidad de lectura en nuestra página
+    escalabilidad
+
+Utilizar estilos de un documento externo significa que vamos a tener dos documentos; uno para html "index.html" con la estructura y por otro lado teenmos el documento llamado "style.css" para darle estilo.
+
+-->
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis saepe modi laudantium, quasi laboriosam exercitationem accusantium repellendus perspiciatis, adipisci, deserunt aliquam impedit. Ab sapiente quibusdam eligendi consectetur quis! Officiis, accusantium.</p>
+
+<!--
+
+Clases e ID
+
+todxs pertenecemos a la clase CH35
+nuestro ID sería nuestro nombre
+
+la palabra reservada class (.)
+la palabra reservada id (#)
+
+-->
+
+<h2 class = "CH35" id = "Rey" > Rey </h2>
+<h2 class = "CH35" id = "Uriel" > Uriel </h2>
+<h2 class = "CH35" id = "Rene" > René </h2>
+<h2 class = "CH35" id = "Marco" > Marco </h2>
+
+<br>
+
+<br>
+
+<!-- 
+    
+    Div: Es un elemento de bloque que se utiliza para crear un contenedor de contenido
+
+-->
+
+    <div class="contenedor">
+
+        <p>Esto es un parrafo dentro de un DIV</p>
+
+    <img src="./assets/Div.png" alt="Box Model">
+
+    </div>
+
+</body>
+</html>

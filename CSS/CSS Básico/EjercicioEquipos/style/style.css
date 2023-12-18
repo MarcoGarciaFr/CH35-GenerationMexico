@@ -1,0 +1,25 @@
+p{ 
+    background-color: blue;
+}
+/*las clases y id son case sensitive
+            la palabra reservada Class (.)
+            la palabra reservada id (#)  
+            Un ID se utiliza para seleccionar un solo elemento, mientras que una clase se utiliza para seleccionar más de un elemento. Es como si aplicaras un "IN LINE" pero en CSS
+*/
+
+#Gaby{
+    color: blueviolet;
+}
+#Pau{
+    color: aqua;
+}
+.CH35{
+    color: gold;
+}
+#Manzana{
+    color: white; font-style: italic;
+}
+.Recetas{
+    color: whitesmoke; 
+    font-style: oblique;
+}

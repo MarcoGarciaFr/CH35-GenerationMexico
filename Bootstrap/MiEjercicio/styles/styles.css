@@ -1,0 +1,55 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2edfa; /* Color de fondo */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos para el Navbar */
+
+.navbar {
+    background-color: #6a0dad; /* Color del Navbar */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff; /* Color del texto del Navbar */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Color del texto al pasar el mouse sobre el Navbar */
+}
+
+/* Estilos para la sección de Cabecera */
+
+header {
+    background-color: #8e44ad; /* Color de fondo del header */
+    color: #fff; /* Color del texto del header */
+    padding: 60px 0;
+}
+
+/* Estilos para las secciones */
+
+section {
+    padding: 60px 0;
+}
+
+/* Estilos para los enlaces */
+
+a {
+    color: #6a0dad; /* Color de los enlaces */
+}
+
+a:hover {
+    color: #542b8b; /* Color de los enlaces al pasar el mouse */
+}
+
+/* Estilos para el Footer */
+
+footer {
+    background-color: #6a0dad; /* Color de fondo del footer */
+    color: #fff; /* Color del texto del footer */
+    padding: 20px 0;
+}

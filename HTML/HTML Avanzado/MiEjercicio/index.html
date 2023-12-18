@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Formulario de Adopción</title>
+    <style>
+        body {
+            background-image: url('./assets/Formulariofondo.png');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        main {
+            width: 80%; /* Ancho del formulario */
+            max-width: 800px; /* Máximo ancho del formulario */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Formulario de Adopción de Perritos...</h2>
+        <form action="">
+            <div><!-- Div Sección 1 -->
+                <!-- ... -->
+            </div>
+            <div><!-- Div Sección 2 -->
+                <div><!-- Instrucciones -->
+                    <!-- ... -->
+                </div>
+                <div><!-- Contenedor Datos Personales -->
+
+                    <table border="1"><!-- Contenedor Datos Personales -->
+                        <!-- ... -->
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <label for="nombre">Nombre completo:</label>
+                                    <input type="text" name="nombre" id="nombre" required>
+                                    <p class="instrucciones">Por favor, ingrese su nombre completo.</p>
+                                </td>
+                                <td colspan="1">
+                                    <label for="edad">Edad:</label>
+                                    <input type="number" name="edad" id="edad" required>
+                                    <p class="instrucciones">Indique su edad en números.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <!-- ... -->
+                <div><!-- Contenedor Domicilio -->
+                    <div>
+                        <!-- ... -->
+                        <div>
+                            <label for="casa">Casa:</label>
+                            <input type="checkbox" name="casa" id="casa">
+                            <label for="casa_m2">m2:</label>
+                            <input type="number" name="casa_m2" id="casa_m2">
+                            <p class="instrucciones">Indique los metros cuadrados de su casa.</p>
+                        </div>
+                        <!-- ... -->
+                        <div>
+                            <p>Si el lugar donde estará el peludito es una finca, ¿tiene cerramiento?</p>
+                            <label for="cerramiento_si">Sí</label>
+                            <input type="radio" name="cerramiento" id="cerramiento_si">
+                            <label for="cerramiento_no">No</label>
+                            <input type="radio" name="cerramiento" id="cerramiento_no">
+                            <p class="instrucciones">Marque según corresponda.</p>
+                        </div>
+                        <!-- ... -->
+                    </div>
+                    <div>
+                        <div>
+                            <p>Si es arrendatario, coloque nombre y teléfono del dueño de casa:</p>
+                            <label for="dueño_inmueble">Nombre del dueño del inmueble:</label>
+                            <input type="text" name="dueño_inmueble" id="dueño_inmueble">
+                            <p class="instrucciones">Ingrese el nombre del dueño del inmueble si es arrendatario.</p>
+                            <label for="dueño_telefono">Teléfono:</label>
+                            <input type="tel" name="dueño_telefono" id="dueño_telefono">
+                            <p class="instrucciones">Ingrese el teléfono del dueño del inmueble si es arrendatario.</p>
+                        </div>
+                        <div>
+                            <p>El lugar donde vivirá el peludito, ¿posee?</p>
+                            <label for="patio">Patio</label>
+                            <input type="checkbox" name="patio" id="patio">
+                            <label for="terraza">Terraza</label>
+                            <input type="checkbox" name="terraza" id="terraza">
+                            <label for="jardin">Jardín</label>
+                            <input type="checkbox" name="jardin" id="jardin">
+                            <p class="instrucciones">Marque los espacios disponibles.</p>
+                            <p>¿Es cubierto?</p>
+                            <label for="cubierto_si">Sí</label>
+                            <input type="radio" name="cubierto" id="cubierto_si">
+                            <label for="cubierto_no">No</label>
+                            <input type="radio" name="cubierto" id="cubierto_no">
+                            <p class="instrucciones">Marque según corresponda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div><!-- Contenedor Botón -->
+                    <div>
+                        <button type="submit">Enviar</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </form>
+
+    </main>
+
+</body>
+</html>

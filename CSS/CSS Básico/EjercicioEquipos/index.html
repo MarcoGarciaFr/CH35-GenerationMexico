@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Introduccion a CSS </title>
+        <link rel="stylesheet" href="./Assets/style/style.css">
+    </head>
+    <body>
+        <!-- Tenemos 3 formas distitnas de agregar estilos a un documento html
+        Inline (en Linea)
+    para trabajar con los estilos in line utilizamos la palabra reservada style y con esto ya le damos la instruccion de lo que queremos añadir. Tiene mayor jerarquia sobre la etiqueta style -->
+    <h1>inline</h1>
+    <p style="background-color: bisque; color: brown;"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat doloremque necessitatibus, nam id porro quidem dolore non dolorem exercitationem deserunt dicta quasi provident. Exercitationem veniam voluptas velit recusandae unde natus? </p>
+
+    <!-- utilizando la etiqueta style
+    Cuando usamos los estilos dentro de la etiqueta. Separamos todas las modificaciones en la etiqueta, estas modifican a todo la pagina si se encuentran fuera de otra etiqueta-->
+        <style>
+            body{ background-color: green;}
+            h2{color: white;} 
+            p{background-color: red;}
+
+        </style>
+<!-- referencia a un documentos de estilos externos (buena practica)-->
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat doloremque necessitatibus, nam id porro quidem dolore non dolorem exercitationem deserunt dicta quasi provident. Exercitationem veniam voluptas velit recusandae unde natus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illo repudiandae repellendus, nostrum atque quaerat excepturi non ullam nam in architecto nisi veritatis soluta exercitationem? Facilis itaque ducimus accusantium illo?</p>
+
+        <ul> Lista de super
+            <li>Leche</li>
+            <li>Pan</li>
+            <li>Platano</li>
+            <li>Manzana</li>
+            <li>Lechuga</li>
+        </ul>
+        <h1>Recetas</h1>
+        <h2>Pay de manzana</h2>
+      
+        <p style="background-color: beige; color: black;">Precalienta el horno a 180 °C.
+            Para la masa: coloca todo en el procesador de alimentos y procesa hasta integrar. Amasa ligeramente y reposa en el refrigerador por 10 minutos.
+            Extiende la masa con ayuda de un rodillo de 5 mm de grosor y coloca sobre un molde para pay previamente engrasado y enharinado; corta el exceso y reserva para el trenzado.
+            En un sartén a fuego medio, calienta la mantequilla y saltea las manzanas, agrega el azúcar y cocina 5 minutos o hasta que haya reducido el líquido, sazona con canela y cardamomo. Deja enfriar y reserva.
+            Rellena el molde con las manzanas y cubre con un trenzado de la masa restante. Barniza con huevo y hornea de 40 a 45 minutos o hasta que esté doradita la masa. Sirve y disfruta.</p>
+        
+        <h2>Ensalada de manzana</h2>
+
+        <p id="Manzana">1. Rebanar las manzanas en rodajas.
+
+            2. En un tazón colocar el jitomate rebanado, el pepino rebanado y la lechuga deshojada.
+            
+            3. Licuar el jugo de limón, el ajo, la miel, el vinagre blanco y la pimienta.
+            
+            4. Vertir la mezcla sobre el tazón y revolver las verduras.
+            Precalentamos el horno a 180ºC.
+            En un bowl batimos los huevos y el azúcar hasta que el azúcar se desintegre.
+            Después agregamos la mantequilla derretida y la incorporamos.
+            Agregamos la leche y mezclamos todo muy bien.
+            Mezclamos royal y harina y los incorporamos. Y en este punto ya esta la mezcla lista.
+            Pelamos y partimos las manzanas y las rebanamos.
+            Agregamos las manzanas a la mezcla de harina.
+            Engrasamos el molde de panque o utilizamos papel de horno y vaciamos la mezcla.
+            Ponemos nuez encima y un poco de canela.
+            Horneamos por 55 minutos.
+            Sacamos del horno, dejamos enfriar y desmoldamos.
+            Servir y disfrutar!!! </p>
+        
+        <h2>Panque de manzana</h2>
+        <p class="Recetas"> Molde para pan de Wilton
+            1 ¼ (315g) tazas de harina
+            ½ cucharadita (2.5g) de polvo para hornear
+            ½ cucharadita (2.5g) de bicarbonato
+            ¼ cucharadita (1.25g) de sal
+            ½ taza (90g) de mantequilla suave
+            ½ taza (125g) de azúcar moscabado
+            1 huevo
+            1 cucharadita (5g) de extracto de vainilla
+            1/3 taza (80g) de puré de manzana
+            1 taza (125g) de manzanas peladas y en cuadritos
+             
+            Precalendar el horno a 170°C, rocía el molde para panque con spray antiadherente o similar. Para el crumble, mezcla la azúcar morena, harina, canela, nuez moscada y mantequilla.
+            
+            Combina la harina, polvo para hornear, bicarbonato y sal. Aparte, bate la mantequilla y azúcar morena hasta que la mezcla este suave y esponjosa. Agrega el huevo y vainilla y bate bien. Agrega la mezcla de harina alternando con el puré de manzana. Vierte la manzana en cuadritos y mezcla.
+            
+            Vierte la mitad de la mezcla en el molde. Espolvorea un poco de la mezcla de crumble y vuelve la otra parte de la mezcla y termina espolvoreando el resto del crumble.
+            
+            Hornea 60-65 minutos o hasta que al insertar un palillo y salga limpio. Deja enfriar por 15 minutos antes de desmoldar. </p>
+
+
+            <!-- Clases y ID
+            Todos pertenecemos a la clase CH35, nuestro ID seria nuestro nombre
+            la palabra reservada Class (.)
+            la palabra reservada id (#)-->
+            <h2 class="CH35" id="Gaby">Gaby</h2>
+            <h2 class="CH35" id="Pau">Pau</h2>
+            <h2 class="CH35" id="Aldo">Aldo</h2>
+            <h2 class="CH35" id="Gonzalo">Gonzalo</h2>
+        
+
+    </body>
+</html>
+
