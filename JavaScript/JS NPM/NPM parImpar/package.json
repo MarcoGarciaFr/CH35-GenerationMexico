@@ -1,0 +1,19 @@
+{
+  "name": "npm-parimpar_marcogarciafr",
+  "version": "1.0.1",
+  "description": "Permite determinar si el número es para o impar",
+  "main": "index.js",
+  "type": "module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generation",
+    "parimpar",
+    "ch35"
+  ],
+  "author": "marcogarciafr",
+  "license": "ISC"
+
+}
+

@@ -1,9 +1,0 @@
-Este solo es un archivo para recoradar que los temas de
-JS que vimos, fueron de la siguiente manera (hasta 18/12/23):
-
-- JS Primeros pasos
-- JS Funciones
-- JS Control de Flujo
-- JS Arrays
-- JS Bucles
-- JS Operadores
