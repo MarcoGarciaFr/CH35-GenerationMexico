@@ -38,7 +38,7 @@ public class EjerciciosOperadores {
 		
 		// || or
 		
-		double costoPasaje = 380.50;
+		// double costoPasaje = 380.50; no se esta usando, por eso se quitó
 		
 		int edad = 58;
 		
@@ -46,39 +46,60 @@ public class EjerciciosOperadores {
 		
 		boolean descuentoAdultoMayor = edad >= 60 || credenInapam;
 		
-		System.out.println("Tiene descuento? " + costoPasaje);
+		System.out.println("Tiene descuento? " + descuentoAdultoMayor);
 		
 		
 		// ! not
 		
 		boolean asientosDisponibles = true;
 		
-		boolean libres = true;
+		// boolean libres = true; no se esta usando, por eso se quitó y se repite con la primera declaración.
 		
-		boolean asientosConDescuento = !libres;
+		boolean asientosConDescuento = !asientosDisponibles;
 		
 		
 		System.out.println("Tenemos asientos con descuento " + asientosConDescuento);
 		
 		
-		System.out.println();
-		System.out.println();
+		/* 
+		 
+		 	System.out.println();
+	
+			System.out.println();
+		 	
+		 	Ejercicio de un transporte de viajes:
+
+		 	Costo del boleto 350
+		 	
+		 	62 asientos
+		 	
+		 	4 destinados a adultxs mayores
+		 	
+		 	6 destinados a estudiantes
+		 	
+		 	Descuento a inapam es de 35%
+		 	
+		 	Descuento a estudiantes es de 30%
+
+		 	Calcular los asientos destinados para los descuentos
+
+		 	Calcular los descuentos de los boletos en ambos casos
+
+		 	Calcular cuanto dinero se ganaría de todos los boletos vendidos
+		 	
+			double boletoCosto = 350;
+
+			int asientosTotales = 62;
 		
-		double boletoCosto = 350;
+			int asientosAdultosMayores = 4;
 		
-		int asientosTotales = 62;
+			int asientosEstudiantes = 6;
 		
-		int asientosAdultosMayores = 4;
+			double descuentoInapam = 0.35;
 		
-		int asientosEstudiantes = 6;
-		
-		double descuentoInapam = 0.35;
-		
-		double descuentoEstudiantes = 0.30;
-		
-		
-	    
-		
+			double descuentoEstudiantes = 0.30;
+		 
+		*/
 
 	}
 
